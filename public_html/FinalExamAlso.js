@@ -6,7 +6,8 @@
 document.getElementById("ifDare").addEventListener("click", findResult);
 
 function findResult() {
-    
+    let rand = Math.ceil(Math.random() * 999);
+    document.getElementById("dispRes").innerHTML = "You have " + rand + " days until it's over. Have fun. :)";
 }
 
 
